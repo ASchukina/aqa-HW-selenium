@@ -111,7 +111,7 @@ public class CardTest {
 
     // пропущен чек-бокс
     @Test
-    void phoneNullTest() {
+    void checkBoxNullTest() {
         List<WebElement> elements = driver.findElements(By.className("input__control"));
         elements.get(0).sendKeys("Петров Петя");
         elements.get(1).sendKeys("+79102671142");
